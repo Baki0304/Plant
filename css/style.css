@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+img{
+    width: 100%;
+}
+ul,ol{
+    list-style: none;
+}
+
+
+.container{
+    width: 1275px;
+    margin: 0 auto;
+}
+.sign{
+    padding: 10px 25px;
+    border-radius: 4px;
+    background: #066F14;
+    color: white;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: .5s;
+}
+
+
+
+.navbar{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul{
+    margin-left: 150px;
+    display: flex;
+}
+.navbar ul li{
+    margin: 0 24px;
+}
+.navbar ul li a{
+    font-family: 'DM Sans';
+    color: #1A1A1A;
+    transition: .5s;
+}
+.navbar ul li a:hover{
+    color: #066F14;
+    transition: .5s;
+}
+.nav-wrap button:nth-child(1){
+    background: transparent;
+    color: #1A1A1A;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-wrap button:nth-child(1):hover{
+    transition: .5s;
+    color: #066F14;
+}
+.nav-wrap button:nth-child(2):hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid;
+    transition: .5s;
+}
+
+
+.plant{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plant-text{
+    width: 550px;
+}
+.plant-text h2{
+    font-style: normal;
+    font-weight: 700;
+    line-height: 92px;
+    font-size: 72px;
+}
+.plant-text .lorem{
+    width: 505px;
+    margin: 25px 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    font-size: 16px;
+    color: #4A4A4A;
+}
+.plant-text button{
+    margin: 15px 0;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+.plant-text button:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid;
+    transition: .5s;
+}
+.plant-text-num{
+    margin: 45px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.plant-text-num .cus{
+    text-align: center;
+}
+.plant-text-num .cus h4{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    font-style: normal;
+}
+.plant-text-num .cus p{
+    margin: 10px 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+.plant-img{
+    width: 560px;
+    height: 720px;
+    background-image: url(/img/klipartz\ 5\ \(1\).png);
+}
+.plant-img .info{
+    position: relative;
+}
+.plant-img .info img{
+    position: absolute;
+    width: 260px;
+}
+.info .stem{
+    top: 174px;
+    left: -43px;
+    transition: .5s;
+}
+.info .stem:hover{
+    cursor: pointer;
+    opacity: 80%;
+    transition: .5s;
+}
+.info .thorn{
+    top: 72px;
+    left: 323px;
+    transition: .5s;
+}
+.info .thorn:hover{
+    cursor: pointer;
+    opacity: 80%;
+    transition: .5s;
+}
+.info .media{
+    top: 554px;
+    left: 365px;
+    transition: .5s;
+}
+.info .media:hover{
+    cursor: pointer;
+    opacity: 80%;
+    transition: .5s;
+}
+.info .klpz{
+    width: 157px;
+    top: 330px;
+    left: -265px;
+}
