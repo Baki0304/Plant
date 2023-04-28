@@ -15,7 +15,9 @@ ul,ol{
     list-style: none;
 }
 
-
+body{
+    background-color: #ECECEC;
+}
 .container{
     width: 1275px;
     margin: 0 auto;
@@ -66,8 +68,8 @@ ul,ol{
 }
 .nav-wrap button:nth-child(2):hover{
     background-color: transparent;
-    color: black;
-    border: 1px solid;
+    color: #066F14;
+    border: 1px solid #066F14;
     transition: .5s;
 }
 
@@ -103,8 +105,8 @@ ul,ol{
 }
 .plant-text button:hover{
     background-color: transparent;
-    color: black;
-    border: 1px solid;
+    color: #066F14;
+    border: 1px solid #066F14;
     transition: .5s;
 }
 .plant-text-num{
@@ -177,4 +179,322 @@ ul,ol{
     width: 157px;
     top: 330px;
     left: -265px;
+}
+
+
+
+.plants{
+    margin: 102px 0;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.plants-text{
+    width: 390px;
+}
+.plants-text h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+}
+.see-all{
+    margin: 37px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.see-all:hover i{
+    cursor: pointer;
+    color: #066F14;
+    transition: .5s;
+}
+.see-all p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4A4A4A;
+    transition: .5s;
+}
+.see-all:hover p{
+    transition: .5s;
+    cursor: pointer;
+    color: #066F14;
+}
+.see-all i{
+    transition: .5s;
+    margin: 0 10px;
+    color: #4A4A4A;
+}
+.plants-img{
+    display: flex;
+}
+.plants-img img{
+    width: 217px;
+    height: 207px;
+    margin: 0 12px;
+    padding: 22px 21px;
+    border-radius: 4px;
+    background: #F6EDE8;
+    transition: .5s;
+}
+.plants-img img:hover{
+    cursor: pointer;
+    transition: .5s;
+    background: #F0F1F6;
+}
+
+
+.about-us{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-us-img{
+    position: relative;
+}
+.about-us-img .gr{
+    width: 446px;
+    height: 440px;
+    background-color: #066F14;
+}
+.about-us-img img{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+.about-us-text{
+    width: 504px;
+}
+.about-us-text h5{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #066F14;
+}
+.about-us-text h2{
+    margin: 12px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1A1A1A;
+}
+.about-us-text p{
+    margin: 12px 0;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    line-height: 26px;
+    font-style: normal;
+    font-size: 16px;
+    color: #4A4A4A;
+}
+.about-us-text span{
+    margin: 4px 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    color: #4A4A4A;
+}
+.about-us-text button{
+    margin: 32px 0;
+    padding: 16px 32px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+
+.product{
+    margin-top: 128px;
+    text-align: center;
+}
+.product h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.product ul{
+    margin: 24px 0;
+    display: flex;
+    justify-content: center;
+}
+.product ul li a{
+    margin: 0 12px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4A4A4A;
+    transition: .5s;
+}
+.product ul li a:hover{
+    font-size: 18px;
+    color: #066F14;
+    line-height: 23px;
+    transition: .5s;
+}
+.product-boxes{
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.products{
+    border-radius: 4px;
+    text-align: center;
+    width: 270px;
+}
+.products h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1A1A1A;
+}
+.products p{
+    margin-bottom: 20px;
+}
+.products h3,.stars,p{
+    margin: 0 32px;
+    text-align: start;
+}
+.products .out{
+    padding-top: 10px;
+    width: 140px;
+    height: 153px;
+}
+.products .mons{
+    width: 120px;
+    height: 153px;
+}
+.products .pott{
+    width: 118px;
+    height: 153px;
+}
+.products .indo{
+    width: 160px;
+    height: 153px;
+}
+.products:nth-child(1){
+    background-color: #EAF2E5;
+}
+.products:nth-child(2){
+    background-color: #F0EBE6;
+}
+.products:nth-child(3){
+    background-color: #E2ECE4;
+}
+.products:nth-child(4){
+    background-color: #E7EEED;
+}
+.stars{
+    margin: 10px 32px;
+    display: flex;
+}
+.stars img{
+    margin: 0 2px;
+    width: 15px;
+}
+.product button{
+    margin: 16px 0;
+    padding: 16px 32px;
+    font-size: 18px;
+    border: 1px solid transparent;
+    transition: .5s;
+}
+.product button:hover{
+    color: #066F14;
+    transition: .5s;
+    background-color: transparent;
+    border: 1px solid #066F14;
+}
+
+
+
+
+.comment{
+    display: flex;
+}
+.comment-text{
+    width: 660px;
+}
+.comment-text h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    font-style: normal;
+}
+.islam{
+    background-color: #066F14;
+}
+.hasanul{
+    display: flex;
+}
+.islam .buttons{
+    display: flex;
+    justify-content: end;
+}
+.islam .buttons button{
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: #143B19;
+    transition: .5s;
+}
+.islam .buttons button:hover{
+    background-color: #fff;
+    transition: .5s;
+}
+.islam .buttons button:hover i{
+    color: #066F14;
+}
+.islam .buttons button  i{
+    color: #48654B;
+}
+.islam .vectors{
+    margin: 20px 24px;
+    display: flex;
+    height: 31px;
+}
+.islam .vectors img{
+    width: 17px;
+    height: 31px;
+}
+.islam p{
+    width: 502px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #ECECEC;
+}
+.islam .islam-img{
+    width: 541px;
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+}
+.islam .islam-img img{
+    width: 60px;
+}
+
+.islam-img .islam-name{
+    margin: 0 10px;
+    color: #fff;
+}
+.islam-name p{
+    margin: 0;
+    color: #D9D9D9;
+}
+.comment-img{
+    
 }
