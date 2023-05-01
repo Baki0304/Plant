@@ -628,19 +628,56 @@ body{
     justify-content: center;
     border-radius: 4px;
     background-color: #EDFFDD;
+    transition: .5s;
 }
 .icons i{
     font-size: 20px;
     font-weight: 800;
     color: #066F14;
+    transition:  .5s;
+}
+.icons:hover{
+    cursor: pointer;
+    background-color: #066F14;
+    transition: .5s;
+}
+.icons:hover i{
+    color: #fff;
+    transition: .5s;
 }
 tbody tr:nth-child(1) td:nth-child(1){
-    width: 306px;
+    width: 406px;
+    padding-right: 100px;
+    line-height:30px;
 }
 tbody tr:nth-child(4) td:nth-child(1){
     display: flex;
     gap: 16px;
 }
+table{
+    width: 1152px;
+}
+tr th{
+    font-family: 'DM Sans';
+    padding: 24px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1A1A1A;
+}
+tr td{
+    font-family: 'DM Sans';
+    line-height: 21px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #5A5A5A;
+}
 tr th,td{
-    
+    padding: 8px 0;
+    text-align: start;
+}
+footer .container table{
+    margin: 0 auto;    
 }
