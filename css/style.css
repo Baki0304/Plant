@@ -421,10 +421,22 @@ body{
 
 
 .comment{
+    margin: 128px 0;
     display: flex;
 }
 .comment-text{
+    position: relative;
     width: 660px;
+}
+.comment-text .lorem{
+    font-family: 'DM Sans';
+    width: 502px;
+    margin: 15px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4A4A4A;
 }
 .comment-text h2{
     font-size: 40px;
@@ -433,6 +445,8 @@ body{
     font-style: normal;
 }
 .islam{
+    position: absolute;
+    margin-top: 25px;
     background-color: #066F14;
 }
 .hasanul{
@@ -451,6 +465,7 @@ body{
 }
 .islam .buttons button:hover{
     background-color: #fff;
+    cursor: pointer;
     transition: .5s;
 }
 .islam .buttons button:hover i{
@@ -465,6 +480,7 @@ body{
     height: 31px;
 }
 .islam .vectors img{
+    margin: 0 3px;
     width: 17px;
     height: 31px;
 }
@@ -496,5 +512,135 @@ body{
     color: #D9D9D9;
 }
 .comment-img{
+    margin-left: -50px;
+}
+
+
+
+.newsletter{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #DFFFE3;
+    border-radius: 6px;
+}
+.newsletter-text{
+    padding: 60px;
+}
+.newsletter-text h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1A1A1A;
+}
+.newsletter-text p{
+    width: 458px;
+    margin: 12px 0;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #4A4A4A;
+}
+.newsletter-text input{
+    margin-top: 18px;
+    width: 451px;
+    padding: 20px;
+    padding-right: 100px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+.newsletter-text button{
+    padding: 10px 15px;
+    margin-left: -100px;
+}
+.newsletter-text button:hover{
+    background-color: transparent;
+    color: #066F14;
+    border: 1px solid #066F14;
+}
+.newsletter-img{
+    position: absolute;
+    left: 850px;
+    top: -35px;
+}
+.newsletter-img img{
+    width: 262px;
+}
+
+.instagram .pictures{
+    margin: 28px 0;
+    display: flex;
+    justify-content: center;
+}
+.instagram .pictures .marg{
+    position: relative;
+    width: 231px;
+    height: 241px;
+}
+.instagram .pictures .marg img{
+    position: absolute;
+}
+.instagram .pictures .marg img:nth-child(2){
+    width: 66px;
+    margin: 87px 81px;
+    opacity: 0;
+    transition: .5s;
+}
+.instagram .pictures .marg:hover{
+    cursor: pointer;
+    opacity: 75%;
+}
+.instagram .pictures .marg:hover img:nth-child(2){
+    opacity: 100%;
+    transition: .5s;
+}
+.instagram h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    margin-top: 80px;
+    text-align: center;
+}
+.instagram p{
+    margin: 12px auto;
+    width: 544px;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4A4A4A;
+}
+
+
+
+
+.icons{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #EDFFDD;
+}
+.icons i{
+    font-size: 20px;
+    font-weight: 800;
+    color: #066F14;
+}
+tbody tr:nth-child(1) td:nth-child(1){
+    width: 306px;
+}
+tbody tr:nth-child(4) td:nth-child(1){
+    display: flex;
+    gap: 16px;
+}
+tr th,td{
     
 }
